@@ -32,12 +32,21 @@
     
     background-color: antiquewhite;
 
-    font: 45px Arial, sans-serif;
+    
     padding: 1%;
     border: 2px solid black;
     width: 80%;
-    height: 10%;
+    height: 20%;
 }
+    .previous{
+        font: 28px Arial, sans-serif;
+        background-color: rgb(250, 209, 154);
+        display: block;
+    }
+    .current {
+        font: 42px Arial, sans-serif;
+
+    }
 
 .keys {
     display: flex;
@@ -72,14 +81,17 @@
     
 }
 
-#keyid22 {height: 30%;
+.equal, .zero {height: 30%;
     background-color: lightslategrey;
-    color: white;
+    color: black;
 
 }
 
-#keyid5 {height: 30%;
-    background-color: lightslategrey;
-    color: white;
+.operator {border: 1px solid green;
 
+}
+
+.key:hover {
+    background-color: whitesmoke;
+    font-size: xx-large;
 }
