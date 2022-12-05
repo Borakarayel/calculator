@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 currentScreen.textContent = previousValue;
             }
             else {
-                currentScreen.textContent = previousValue.slice(0,9) + "...";
+                currentScreen.textContent = previousValue.slice(0,7) + "...";
             }
         }
     })
@@ -48,11 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
     decimal.addEventListener("click", function () {
         addDecimal();
     })
-
 })
 
 function handleNumber(num) {
-    if (currentValue.length <= 7) {
+    if (currentValue.length <= 5) {
         currentValue += num;
     }
 }
@@ -76,7 +75,6 @@ function calculate() {
     } else {
         previousValue /= currentValue;
     }
-
 
     previousValue = roundNumber(previousValue);
     previousValue = previousValue.toString();
