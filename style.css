@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .gen{
@@ -13,12 +12,10 @@
     align-items: center;
     justify-content: center;
 
-    border: 1px solid black;
+    border: 10px solid #232323;
     background-image:url("images/circuit.jpg");
     background-size: contain;
-    gap: 4%;
     border-radius: 5%;
-
     width: 500px;
     height: 500px;
 }
@@ -29,13 +26,10 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    
     background-color: antiquewhite;
-
-    
     padding: 1%;
-    border: 2px solid black;
-    width: 80%;
+    border: 5px solid #232323;
+    width: 85%;
     height: 20%;
 }
     .previous{
@@ -59,11 +53,9 @@
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 5%;
-    
     font: bold 24px Arial, sans-serif;
-
-    width: 90%;
     height: 70%;
+    width: 90%;
 }
 
 .key {
@@ -71,9 +63,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 15%;
-    border: 1px solid whitesmoke;
-
+    border-radius: 10%;
+    border: 1px solid #232323;
     background-color: sandybrown;
 
     width: 22%;
@@ -82,15 +73,15 @@
 }
 
 .equal, .zero {height: 30%;
-    background-color: lightslategrey;
+    background-color: khaki;
     color: black;
 
 }
 
-.operator {border: 1px solid green;
+.operator, .func{border: 1px solid green;
+    background-color: rosybrown;
 
 }
-
 .key:hover {
     background-color: whitesmoke;
     font-size: xx-large;
